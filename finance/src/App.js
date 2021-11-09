@@ -3,7 +3,7 @@ import Homepage from './views/Homepage/Homepage';
 
 function App() {
   return (
-    <Box h={window.innerHeight}>
+    <Box>
 
     <Center>
       <Heading>Finance</Heading>
