@@ -3,7 +3,7 @@ import Homepage from './views/Homepage/Homepage';
 
 function App() {
   return (
-    <Box paddingTop='env(safe-area-inset-top)'>
+    <Box >
 
     <Center>
       <Heading>Finance</Heading>
