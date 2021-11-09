@@ -3,7 +3,7 @@ import Homepage from './views/Homepage/Homepage';
 
 function App() {
   return (
-    <Box style={{padding: 'env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left)'}}>
+    <Box h='100vh'>
 
     <Center>
       <Heading>Finance</Heading>
