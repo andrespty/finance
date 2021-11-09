@@ -10,10 +10,9 @@ const useIncomeSplit = () => {
     const id_split = useRef(0)
 
     useEffect(() => {
-        if (splits.length !== 0){
-            // setHasRecalculate(true)
-            setState(state => ({...state, hasRecalculate:true}))
-        }
+    
+        setState(state => ({...state, hasRecalculate:true}))
+        
     }, [income])
 
     const change_income = (value) => {
