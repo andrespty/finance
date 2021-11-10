@@ -1,7 +1,6 @@
 import React from 'react'
-import { Box, Heading, Input, Button } from '@chakra-ui/react'
+import { Box, Heading, Button } from '@chakra-ui/react'
 import useCompounding from './useCompounding'
-import InputNumber from '../Inputs/InputNumber'
 import CompoundingForm from '../Forms/CompoundingForm'
 
 function CompoundingInterest() {

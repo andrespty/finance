@@ -1,5 +1,5 @@
 import React from 'react'
-import { FormControl, FormLabel, FormErrorMessage, FormHelperText, Box, Input, Select } from "@chakra-ui/react"
+import { FormControl, FormLabel, FormHelperText, Box, Select } from "@chakra-ui/react"
 import InputNumber from '../Inputs/InputNumber'
 
 function CompoundingForm({ info, modify }) {
