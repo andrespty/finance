@@ -3,7 +3,8 @@ import { Heading, Button, Flex, Spacer, Stack, Input, Select, Box, Grid, GridIte
 import useIncomeSplit from './useIncomeSplit'
 import Splits from './Splits'
 import InputNumber from '../Inputs/InputNumber'
-import PieChart from '../Pie_Chart/PieChart'
+import PieChart from '../Charts/PieChart'
+import { formatter } from '../../utils/utilFunctions'
 
 function IncomeSplit() {
 
@@ -15,7 +16,7 @@ function IncomeSplit() {
             <Heading>Income Split</Heading>
             
             <Flex>
-                <Heading>${ income }</Heading>
+                <Heading>{ formatter(income) }</Heading>
 
                 <Spacer />
 
