@@ -8,7 +8,7 @@ function App() {
 
     <Center m={3} >
       <Stack direction='column' w='40%'>
-        <Heading align='center'>Finance</Heading>
+        <Heading align='center'>Finance Bud</Heading>
         <Divider />
       </Stack>
     </Center>
